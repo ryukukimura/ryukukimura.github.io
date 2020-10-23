@@ -8,13 +8,14 @@
   <title>portfolioTest</title>
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"
     integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
-  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" defer></script>
+  <script src="https://use.fontawesome.com/releases/v5.11.0/js/all.js" defer></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
     integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
   <script async type="text/javascript" src="js/bulma.js"></script>
 </head>
 
@@ -154,11 +155,244 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="https://source.unsplash.com/1280x960/?black,white,desert" alt="Placeholder image">
+              <img src="https://source.unsplash.com/1280x960/?macbook,backpack" alt="Placeholder image">
             </figure>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- Skill -->
+  <section class="section" id="skill">
+    <div class="section-heading">
+      <h3 class="title is-2">What am I do?</h3>
+      <h4 class="subtitle is-5">こんなコトをやっています</h4>
+    </div>
+    <div class="container">
+      <div class="columns is-multiline">
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-image">
+              <img src="https://source.unsplash.com/1280x960/?ios,iphone" alt="Placeholder image">
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fab fa-app-store-ios fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">iOSアプリ開発</h4>
+                  <p class="subtitle is-6">３ヶ月間の開発経験</p>
+                  <h6>
+                    <i class="fab fa-swift fa-2x"></i>
+                    Swift
+                  </h6>
+                  <progress class="progress is-primary" value="65" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-database fa-2x"></i>
+                    Firebase
+                  </h6>
+                  <progress class="progress is-primary" value="55" max="100"></progress>
+                </div>
+              </div>
+              <div class="content">
+                独学でiOSアプリの開発、リリースを行い、新規レシピアプリ「DUMPERS」をローンチ(予定)。SwiftのStoryboardを使った開発、DBはFirebaseを使用。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fas fa-user-tie fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">SIer</h4>
+                  <p class="subtitle is-6">１年間の実務経験</p>
+                  <h6>
+                    <i class="fab fa-java fa-2x"></i>
+                    Java
+                  </h6>
+                  <progress class="progress is-primary" value="75" max="100"></progress>
+                  <h6>
+                    <i class="fab fa-html5 fa-2x"></i>
+                    HTML
+                  </h6>
+                  <progress class="progress is-primary" value="55" max="100"></progress>
+                  <h6>
+                    <i class="fab fa-css3-alt fa-2x"></i>
+                    CSS
+                  </h6>
+                  <progress class="progress is-primary" value="55" max="100"></progress>
+                  <h6>
+                    <i class="fab fa-js-square fa-2x"></i>
+                    JavaScript
+                  </h6>
+                  <progress class="progress is-primary" value="52" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-table fa-2x"></i>
+                    MySQL
+                  </h6>
+                  <progress class="progress is-primary" value="58" max="100"></progress>
+                </div>
+              </div>
+              <div class="content">
+                大規模な業務システムの刷新プロジェクトにて、コーディングから結合テストまでを経験。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-image">
+              <img src="https://source.unsplash.com/1280x960/?ipad" alt="Placeholder image">
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fas fa-tablet-alt fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">クリエイター</h4>
+                  <p class="subtitle is-6">動画編集とイラスト制作</p>
+                  <h6>
+                    <i class="fas fa-film fa-2x"></i>
+                    LumaFusion
+                  </h6>
+                  <progress class="progress is-primary" value="88" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-edit fa-2x"></i>
+                    Procreate
+                  </h6>
+                  <progress class="progress is-primary" value="85" max="100"></progress>
+                </div>
+              </div>
+              <div class="content">
+                iPadの動画編集アプリLumaFusionとイラストアプリProcreateを使用したYoutube動画制作。主に海外向けにバックパックの動画を投稿。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fas fa-walking fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">ダンス</h4>
+                  <p class="subtitle is-6">ハウスダンスに捧げた大学生活</p>
+                  <h6>
+                    <i class="fas fa-wave-square fa-2x"></i>
+                    House Dance
+                  </h6>
+                  <progress class="progress is-primary" value="95" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-water fa-2x"></i>
+                    Hiphop Dance
+                  </h6>
+                  <progress class="progress is-primary" value="75" max="100"></progress>
+                </div>
+              </div>
+              <div class="content">
+                勝てるまで戦う精神で挑み続けたダンスバトル。大学４年にしてようやく学生バトル優勝。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-image">
+              <img src="https://source.unsplash.com/1280x960/?study" alt="Placeholder image">
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fas fa-book-open fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">勉強中</h4>
+                  <p class="subtitle is-6">興味のある分野</p>
+                  <h6>
+                    <i class="fas fa-laptop-code fa-2x"></i>
+                    Spring Framework
+                  </h6>
+                  <progress class="progress is-primary" value="30" max="100"></progress>
+                  <h6>
+                    <i class="fab fa-aws fa-2x"></i>
+                    AWS
+                  </h6>
+                  <progress class="progress is-primary" value="20" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-laptop-code fa-2x"></i>
+                    Go
+                  </h6>
+                  <progress class="progress is-primary" value="15" max="100"></progress>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <span class="icon">
+                    <i class="fas fa-hand-spock fa-3x"></i>
+                  </span>
+                </div>
+                <div class="media-content">
+                  <h4 class="title is-4">日常</h4>
+                  <p class="subtitle is-6">私を豊かにするモノ</p>
+                  <h6>
+                    <i class="fas fa-user-friends fa-2x"></i>
+                    Family
+                  </h6>
+                  <progress class="progress is-primary" value="100" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-ruler-combined fa-2x"></i>
+                    Leather Craft
+                  </h6>
+                  <progress class="progress is-primary" value="60" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-campground fa-2x"></i>
+                    Camp
+                  </h6>
+                  <progress class="progress is-primary" value="55" max="100"></progress>
+                  <h6>
+                    <i class="fab fa-youtube-square fa-2x"></i>
+                    Vlog
+                  </h6>
+                  <progress class="progress is-primary" value="40" max="100"></progress>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </section>
 
