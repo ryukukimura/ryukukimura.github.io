@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" type="text/css" href="css/fadein.css">
   <script async type="text/javascript" src="js/bulma.js"></script>
 </head>
 
@@ -168,25 +169,23 @@
     <div class="section-heading">
       <h3 class="title is-2">What am I do?</h3>
       <h4 class="subtitle is-5">こんなコトをやっています</h4>
+      <div class="container">
+        <p>平日はSIer企業のシステムエンジニア・土日は個人開発者とYoutubeクリエイター
+        </p>
+      </div>
     </div>
-    <div class="container">
-      <div class="columns is-multiline">
 
+    <div class="container">
+      <h3 class="title is-4">Main Skill</h3>
+      <h4 class="subtitle is-6">今の仕事や開発経験</h4>
+      <div class="columns is-multiline">
         <div class="column is-4">
           <div class="card large">
-            <div class="card-image">
-              <img src="https://source.unsplash.com/1280x960/?ios,iphone" alt="Placeholder image">
-            </div>
             <div class="card-content">
               <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fab fa-app-store-ios fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
-                  <h4 class="title is-4">iOSアプリ開発</h4>
-                  <p class="subtitle is-6">３ヶ月間の開発経験</p>
+                <div class="media-content skills-content">
+                  <h4 class="title is-4">iOSアプリの個人開発者</h4>
+                  <p class="subtitle is-6">iPhoneアプリの開発経験</p>
                   <h6>
                     <i class="fab fa-swift fa-2x"></i>
                     Swift
@@ -197,10 +196,16 @@
                     Firebase
                   </h6>
                   <progress class="progress is-primary" value="55" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-edit fa-2x"></i>
+                    Illustrator
+                  </h6>
+                  <progress class="progress is-primary" value="75" max="100"></progress>
+
                 </div>
               </div>
               <div class="content">
-                独学でiOSアプリの開発、リリースを行い、新規レシピアプリ「DUMPERS」をローンチ(予定)。SwiftのStoryboardを使った開発、DBはFirebaseを使用。
+                独学でiOSアプリの開発。新規レシピアプリ「DUMPERS」をローンチ(予定)。SwiftのStoryboardを使った開発、DBはFirebaseを使用。iPad版AdobeIllustratorを使用したアイコン作成。
               </div>
             </div>
           </div>
@@ -210,14 +215,9 @@
           <div class="card large">
             <div class="card-content">
               <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fas fa-user-tie fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
-                  <h4 class="title is-4">SIer</h4>
-                  <p class="subtitle is-6">１年間の実務経験</p>
+                <div class="media-content skills-content">
+                  <h4 class="title is-4">システムエンジニア</h4>
+                  <p class="subtitle is-6">１年間のSIer実務経験</p>
                   <h6>
                     <i class="fab fa-java fa-2x"></i>
                     Java
@@ -239,7 +239,7 @@
                   </h6>
                   <progress class="progress is-primary" value="52" max="100"></progress>
                   <h6>
-                    <i class="fas fa-table fa-2x"></i>
+                    <i class="fas fa-database fa-2x"></i>
                     MySQL
                   </h6>
                   <progress class="progress is-primary" value="58" max="100"></progress>
@@ -254,17 +254,9 @@
 
         <div class="column is-4">
           <div class="card large">
-            <div class="card-image">
-              <img src="https://source.unsplash.com/1280x960/?ipad" alt="Placeholder image">
-            </div>
             <div class="card-content">
               <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fas fa-tablet-alt fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
+                <div class="media-content skills-content">
                   <h4 class="title is-4">クリエイター</h4>
                   <p class="subtitle is-6">動画編集とイラスト制作</p>
                   <h6>
@@ -285,51 +277,16 @@
             </div>
           </div>
         </div>
+      </div>
+      <h3 class="title is-4">Sub Skill</h3>
+      <h4 class="subtitle is-6">学生時代の経験や習得中の分野</h4>
+      <div class="columns is-multiline">
 
         <div class="column is-4">
           <div class="card large">
             <div class="card-content">
               <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fas fa-walking fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
-                  <h4 class="title is-4">ダンス</h4>
-                  <p class="subtitle is-6">ハウスダンスに捧げた大学生活</p>
-                  <h6>
-                    <i class="fas fa-wave-square fa-2x"></i>
-                    House Dance
-                  </h6>
-                  <progress class="progress is-primary" value="95" max="100"></progress>
-                  <h6>
-                    <i class="fas fa-water fa-2x"></i>
-                    Hiphop Dance
-                  </h6>
-                  <progress class="progress is-primary" value="75" max="100"></progress>
-                </div>
-              </div>
-              <div class="content">
-                勝てるまで戦う精神で挑み続けたダンスバトル。大学４年にしてようやく学生バトル優勝。
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="column is-4">
-          <div class="card large">
-            <div class="card-image">
-              <img src="https://source.unsplash.com/1280x960/?study" alt="Placeholder image">
-            </div>
-            <div class="card-content">
-              <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fas fa-book-open fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
+                <div class="media-content skills-content">
                   <h4 class="title is-4">勉強中</h4>
                   <p class="subtitle is-6">興味のある分野</p>
                   <h6>
@@ -357,35 +314,54 @@
           <div class="card large">
             <div class="card-content">
               <div class="media">
-                <div class="media-left">
-                  <span class="icon">
-                    <i class="fas fa-hand-spock fa-3x"></i>
-                  </span>
-                </div>
-                <div class="media-content">
-                  <h4 class="title is-4">日常</h4>
-                  <p class="subtitle is-6">私を豊かにするモノ</p>
+                <div class="media-content skills-content">
+                  <h4 class="title is-4">衛星画像解析</h4>
+                  <p class="subtitle is-6">学生時代の研究</p>
                   <h6>
-                    <i class="fas fa-user-friends fa-2x"></i>
-                    Family
+                    <i class="fas fa-laptop-code fa-2x"></i>
+                    C
                   </h6>
-                  <progress class="progress is-primary" value="100" max="100"></progress>
+                  <progress class="progress is-primary" value="80" max="100"></progress>
                   <h6>
-                    <i class="fas fa-ruler-combined fa-2x"></i>
-                    Leather Craft
+                    <i class="fas fa-laptop-code fa-2x"></i>
+                    C++
                   </h6>
                   <progress class="progress is-primary" value="60" max="100"></progress>
                   <h6>
-                    <i class="fas fa-campground fa-2x"></i>
-                    Camp
+                    <i class="fas fa-image fa-2x"></i>
+                    Photoshop
                   </h6>
-                  <progress class="progress is-primary" value="55" max="100"></progress>
-                  <h6>
-                    <i class="fab fa-youtube-square fa-2x"></i>
-                    Vlog
-                  </h6>
-                  <progress class="progress is-primary" value="40" max="100"></progress>
+                  <progress class="progress is-primary" value="75" max="100"></progress>
                 </div>
+              </div>
+              <div class="content">
+                リモートセンシング技術を使用した、画像解析を行う研究室に所属。衛星写真を解析し、海氷についての研究結果をJAXAに提供。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column is-4">
+          <div class="card large">
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content skills-content">
+                  <h4 class="title is-4">ダンス</h4>
+                  <p class="subtitle is-6">ハウスダンスに捧げた大学生活</p>
+                  <h6>
+                    <i class="fas fa-walking fa-2x"></i>
+                    House Dance
+                  </h6>
+                  <progress class="progress is-primary" value="95" max="100"></progress>
+                  <h6>
+                    <i class="fas fa-walking fa-2x"></i>
+                    Hiphop Dance
+                  </h6>
+                  <progress class="progress is-primary" value="75" max="100"></progress>
+                </div>
+              </div>
+              <div class="content">
+                勝てるまで戦う精神で挑み続けたダンスバトル。大学４年にしてようやく学生バトル優勝。
               </div>
             </div>
           </div>
@@ -395,6 +371,151 @@
 
     </div>
   </section>
+
+
+  <!-- Portfolio -->
+  <section class="section" id="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Portfolio</h3>
+        <h4 class="subtitle is-5">作ったモノ</h4>
+      </div>
+      <br>
+
+      <div class="container portfolio-container">
+        <div class="columns">
+
+          <div class="column is-6">
+            <!-- DUMPERS -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>DUMPERS</span>
+                  <span class="is-pulled-right">
+                    <span class="tag is-default">Swift</span>
+                    <span class="tag is-default">Firebase</span>
+                    <span class="tag is-danger">Coming Soon</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="images/dumpers.jpeg" alt="DUMPERS icon image">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">
+                  <img src="images/Download_on_the_App_Store_Badge_JP_RGB_blk_100317.svg">
+                </a>
+                <a href="#" class="card-footer-item">View on Github
+                </a>
+              </footer>
+            </div>
+
+
+            <!-- portfolio -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Portfolio</span>
+                  <span class="is-pulled-right">
+                    <span class="tag is-default">HTML</span>
+                    <span class="tag is-default">CSS</span>
+                    <span class="tag is-default">Bulma</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="images/portfolio.jpg" alt="portfolio image">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Preview</a>
+                <a href="#" class="card-footer-item">View on Github</a>
+              </footer>
+            </div>
+          </div>
+
+          <div class="column is-6">
+            <!-- Youtube -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Backpacking</span>
+                  <span class="is-pulled-right">
+                    <a href="https://www.youtube.com/channel/UCfCaeIOrL2uylkYL1RWQ2zA">
+                      <span class="tag is-default">imigram</span>
+                    </a>
+                    <span class="tag is-default">Youtube</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="images/backpacking.jpeg" alt="backpacking image">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Watch This Video</a>
+                <a href="#" class="card-footer-item">Go to Youtube Channel</a>
+              </footer>
+            </div>
+
+            <!-- vlog -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span>Vlog</span>
+                  <span class="is-pulled-right">
+                    <a href="https://www.youtube.com/channel/UCfCaeIOrL2uylkYL1RWQ2zA">
+                      <span class="tag is-default">imigram</span>
+                    </a>
+                    <span class="tag is-default">Youtube</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="images/vlog.jpeg" alt="vlog image">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Watch This Video</a>
+                <a href="#" class="card-footer-item">Go to Youtube Channel</a>
+              </footer>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2">Contact</h3>
+        <h4 class="subtitle is-5">連絡先</h4>
+      </div>
+      <br>
+
+      <div class="columns">
+        <div class="column is-6 is-offset-3">
+          <div class="card">
+            <div class="card-content">
+              <p class="title is-6">ご連絡はこちらまで</p>
+              <p class="contact">imigramer@gmail.comもしくは<a href="#">Twitter</a>のDM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
 
 </body>
 
