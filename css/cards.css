@@ -17,10 +17,20 @@ input::placeholder {
 
 .navbar {
   background: var(--card-bg);
+  background-color: #242c46;
 }
 
 .navbar-item {
   color: ghostwhite;
+  background-color: #242c46;
+}
+
+.navbar-burger {
+  color: ghostwhite;
+}
+
+.navbar-menu.is-active {
+  background-color: #242c46;
 }
 
 /* Card start*/

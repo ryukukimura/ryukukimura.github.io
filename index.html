@@ -6,23 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>portfolioTest</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"
-    integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"
+    integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>-->
   <script src="https://use.fontawesome.com/releases/v5.11.0/js/all.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
     integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <script async type="text/javascript" src="js/bulma.js"></script>
+  <!-- Custom -->
   <link rel="stylesheet" type="text/css" href="css/portfolio.css">
   <link rel="stylesheet" type="text/css" href="css/cards.css">
-  <link rel="stylesheet" type="text/css" href="css/fadein.css">
-  <script async type="text/javascript" src="js/bulma.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/fade.css">
+  <script async type="text/javascript" src="js/fade.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/background.css">
+  <script async type="text/javascript" src="js/background.js"></script>
 </head>
 
-<body>
+<body class="background">
   <!-- Navigation bar -->
-  <nav class="navbar is-dark is-fixed-top">
+  <nav class="navbar head is-fixed-top">
     <!--navbarの左側の要素-->
     <div class="navbar-brand">
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -70,13 +75,13 @@
   </nav>
 
   <!-- Header -->
-  <section class="hero is-dark is-fullheight is-fullheight-with-navbar" id="home">
+  <section class="hero head is-fullheight is-fullheight-with-navbar" id="home">
     <div class="hero-body">
-      <div class="container">Hello! I am
-        <h1 class="title is-1">
+      <div class="container head">Hello! I am
+        <h1 class="title is-1 name">
           Ryuku Kimura
         </h1>
-        <h2 class="subtitle is-3">
+        <h2 class="subtitle is-3 head">
           Digital Creator
         </h2>
       </div>
@@ -185,7 +190,7 @@
       <h3 class="title is-4">Main Skill</h3>
       <h4 class="subtitle is-6">今の仕事や開発経験</h4>
       <div class="columns is-multiline">
-        <div class="column is-4">
+        <div class="column is-4 effect-fade-fromL">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -217,7 +222,7 @@
           </div>
         </div>
 
-        <div class="column is-4">
+        <div class="column is-4 effect-fade">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -258,7 +263,7 @@
           </div>
         </div>
 
-        <div class="column is-4">
+        <div class="column is-4 effect-fade-fromR">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -288,7 +293,7 @@
       <h4 class="subtitle is-6">学生時代の経験や習得中の分野</h4>
       <div class="columns is-multiline">
 
-        <div class="column is-4">
+        <div class="column is-4 effect-fade-fromL">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -316,7 +321,7 @@
           </div>
         </div>
 
-        <div class="column is-4">
+        <div class="column is-4 effect-fade">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -347,7 +352,7 @@
           </div>
         </div>
 
-        <div class="column is-4">
+        <div class="column is-4 effect-fade-fromR">
           <div class="card large">
             <div class="card-content">
               <div class="media">
@@ -393,7 +398,7 @@
 
           <div class="column is-6">
             <!-- DUMPERS -->
-            <div class="card">
+            <div class="card effect-fade">
               <header class="card-header">
                 <p class="card-header-title">
                   <span>DUMPERS</span>
@@ -420,7 +425,7 @@
 
 
             <!-- portfolio -->
-            <div class="card">
+            <div class="card effect-fade">
               <header class="card-header">
                 <p class="card-header-title">
                   <span>Portfolio</span>
@@ -446,7 +451,7 @@
 
           <div class="column is-6">
             <!-- Youtube -->
-            <div class="card">
+            <div class="card effect-fade">
               <header class="card-header">
                 <p class="card-header-title">
                   <span>Backpacking</span>
@@ -471,7 +476,7 @@
             </div>
 
             <!-- vlog -->
-            <div class="card">
+            <div class="card effect-fade">
               <header class="card-header">
                 <p class="card-header-title">
                   <span>Vlog</span>
@@ -505,8 +510,8 @@
   <section class="section" id="contact">
     <div class="container">
       <div class="section-heading">
-        <h3 class="title is-2">Contact</h3>
-        <h4 class="subtitle is-5">連絡先</h4>
+        <h3 class="title is-2 contactC">Contact</h3>
+        <h4 class="subtitle is-5 contactC">連絡先</h4>
       </div>
       <br>
 
