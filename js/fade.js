@@ -36,3 +36,15 @@ $(function() {
     });
   });
 });
+
+$(function() {
+  $(".name").addClass("active");
+});
+
+$(function() {
+  $(".hello1").addClass("active");
+});
+
+$(function() {
+  $(".hello2").addClass("active");
+});

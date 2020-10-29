@@ -1,5 +1,5 @@
 .background {
-  background-color: white;
+  background-color: #f7f7ff;
   transition: all 1000ms;
 }
 .background.active {
@@ -8,17 +8,15 @@
 }
 .head {
   background-color: #242c46;
-  color: #b85b5b;
+  color: #e67070;
 }
-.name {
-  color: #ffffff;
-}
+
 .contactC {
   color: grey;
   transition: all 1000ms;
 }
 
 .contactC.active {
-  color: #b85b5b;
+  color: #e67070;
   transition: all 1000ms;
 }

@@ -38,10 +38,11 @@ input::placeholder {
   overflow: hidden;
   background: ghostwhite;
   color: var(--bg);
+  border-radius: 10px;
 }
 
 .card.large {
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .title.no-padding {
